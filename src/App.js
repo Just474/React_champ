@@ -9,6 +9,7 @@ import Auth from "./components/Auth";
 import Reg from "./components/Reg";
 import Booking from "./components/Booking";
 import AddFlight from "./components/Add-flight";
+import Search from "./components/Search";
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
                 <Route path="/reg" element={<Reg />}/>
                 <Route path="/booking" element={<Booking />}/>
                 <Route path="/add-flight" element={<AddFlight />}/>
+                <Route path="/search" element={<Search />}/>
             </Routes>
             <Footer/>
         </BrowserRouter>

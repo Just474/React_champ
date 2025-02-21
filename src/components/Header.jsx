@@ -24,6 +24,12 @@ export default function Header() {
                                         to='/flight'>
                                         Список космических рейсов
                                     </NavLink></li>
+                                    <li>
+                                        <NavLink
+                                        to='/search'>
+                                            Поиск
+                                        </NavLink>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
